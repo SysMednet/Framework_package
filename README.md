@@ -45,7 +45,7 @@ The framework package code is written in python 3.9.17. Users also need to insta
 | ---- | ----- |
 | GEM | A path to the "gene expression data" file. |
 | k | Balance parameter. Default: 0.1. |
-| output_network | Decide whether to export the created network as a txt file ('no', 'yes'). Default: 'no'. |
+| output_network | Decide whether to export the created network as a .txt file ('no', 'yes'). Default: 'no' (i.e., output .npz file). "LIN> True, False"|
 | Samples | A path to the "sample list" file. If "None", calculate all samples. |
 | Interest_genes | A path to the "interest gene list" file. |
 | save_path | A path to the output files. |
