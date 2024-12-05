@@ -92,8 +92,8 @@ The framework package code is written in python 3.9.17. Users also need to insta
 ## Usage and outputs
 ### Import and execute framework function with python
 
-  - All example input file can be found in "example_input" folder.
-  - All example output file can be found in "example_output" folder.
+  - All example input files can be found in "example_input" folder.
+  - All example output files can be found in "example_output" folder.
 
 Every output files from this function will be saved in the folder set by "save_path" variable.
 <pre><code>from framework_package import framework  
