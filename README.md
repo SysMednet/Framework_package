@@ -170,7 +170,7 @@ The result shows the significant associations between each subnetwork and KEGG p
 ### Network Graph
 
 <pre><code>
-python3 network_graph.py -sample {sample} -c 0.05 -r 0.3 -cri 'pv' -s ./example_output
+python3 network_graph_v2.py -sample {sample} -c 0.05 -r 0.3 -cri 'pv' -s ./example_output
 </code></pre>
 
   - `-sample` : Sample name.
