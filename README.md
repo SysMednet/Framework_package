@@ -26,7 +26,7 @@ The framework package code is written in python 3.9.17. Users also need to insta
 
 ## Installation
 <p>To install the framework package, run:</p>
-<pre><code>pip install git+https://github.com/HsinYu-Hsu/Framework_package</code></pre>
+<pre><code>pip install git+https://github.com/SysMednet/Framework_package</code></pre>
 <p>If the error message "cannot find command git" was shown, please install "git".</p>
 <pre><code>conda install git</code></pre>
 
