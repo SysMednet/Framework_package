@@ -1,0 +1,32 @@
+	<br />
+    <div id="cyto_scene"></div>
+  </body>
+  
+  <script>
+	var network_generate = function() {
+		var selectedPathway = $('#net').val();  
+		console.log("Selected Pathway: " + selectedPathway);
+		console.log("CanvasApp object: ", network);
+		
+		if (network[selectedPathway]) {
+			network[selectedPathway](); 
+			console.log("Pathway function in CanvasApp");
+		}else {
+		console.log("Pathway function not found in CanvasApp");
+	}
+	};
+
+	
+	function reset() {
+		var selectedPathway = $('#net').val();  
+		
+		if (network[selectedPathway]) {
+			network[selectedPathway](); 
+		}
+	}
+	
+	$('#net').on('change', network_generate);
+	$(document).ready(network_generate);
+  </script>
+
+</html>
